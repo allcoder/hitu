@@ -1,0 +1,366 @@
+
+<html>
+<head>
+<head>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=1.7.1'></script> 
+<title>jQuery Popup Facebook Likebox with Timer widget Generator by All-Coder</title>
+<style type="text/css">
+.text-input, .select-box{
+  margin:0 2px;
+	padding:4px 6px;
+	border: 1px solid #F9780E;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-family: gergia;
+	font-style: italic;
+
+	-webkit-box-shadow: 1px 1px 1px #FC7507;
+	-moz-box-shadow: 1px 1px 1px #FC7507;
+	box-shadow: 1px 1px 1px #FC7507;
+	font-size: 14px;
+	color: #666;
+	max-width:auto;
+}
+
+			body { font-family: Verdana, Arial;margin: 0;padding: 0;text-align: left;font-size:18px;
+}
+
+label       { font-family: Verdana, Arial;margin: 0;padding: 0;text-align: left;font-size:15px; font-weight:bold; }
+
+fieldset    { padding:0 1.4em 1.4em 1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
+			#outer-wrapper {font-family: Verdana, Arial;}
+			#content-wrapper { width: 98%; max-widtd:980px;  margin: 0 auto;  padding: 5px;  text-align: left; 
+background:#ffffff;
+}
+			#content-wrapper h2 {text-align:center;font-size:20px;margin: 5px 0 1em ;padding: 3px 10px;background-color: #ffffff;font-size:16px;color:#000;border:1px solid #111;
+}
+		</style>
+<script>
+function makingdifferentcodegen() {
+var mdnitFurl=document.getElementsByName("mdfurl")[0].value;
+var mdFurl=mdnitFurl.replace(/\s/gi,"");
+var mdEFurl=encodeURIComponent(mdFurl);
+var t = document.getElementsByName("mdsettime")[0].value;
+var cbuttontext = document.getElementsByName("mdcbtext")[0].value;
+var headtext = document.getElementsByName("mdhtext")[0].value;
+document.getElementsByName("preview")[0].disabled=false;
+document.getElementsByName("go")[0].disabled=false;
+var makingdifferentcode = document.getElementsByName("widget.content")[0];
+var mdcode = "";
+for (i = 0; i < document.getElementsByName("md").length; i++) 
+{ 
+{mdcode = document.getElementsByName("md")[i].value}
+}
+makingdifferentcode.value = "";
+		if (mdcode == 1) {
+makingdifferentcode.value = "<!-- jquery popup facebook like box with timer by All-Coder @ http://all-coder.blogspot.in/ -->\n";
+makingdifferentcode.value += "<style type='text\/css'>\n";
+makingdifferentcode.value += "#makingdifferentpopup{\n";
+makingdifferentcode.value += "position: fixed;\n";
+makingdifferentcode.value += "top:100px;\n";
+makingdifferentcode.value += "z-index:9999;\n";
+makingdifferentcode.value += "display:none;\n";
+makingdifferentcode.value += "padding:0px;\n";
+makingdifferentcode.value += "right:600px;\n";
+makingdifferentcode.value += "border:10px solid rgba(82, 82, 82, 0.7);\n";
+makingdifferentcode.value += "-webkit-background-clip: padding-box; \/* for Safari *\/\n";
+makingdifferentcode.value += "background-clip: padding-box; \/* for IE9+, Firefox 4+, Opera, Chrome *\/\n";
+makingdifferentcode.value += "-webkit-border-radius:8px 8px 8px 8px;\n";
+makingdifferentcode.value += "-moz-border-radius:8px 8px 8px 8px;\n";
+makingdifferentcode.value += "border-radius:8px 8px 8px 8px;\n";
+makingdifferentcode.value += "width:400px;\n";
+makingdifferentcode.value += "height:360px;\n";
+makingdifferentcode.value += "overflow:hidden;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#makingdifferentpopup span{\n";
+makingdifferentcode.value += "font-size:20px !important;\n";
+makingdifferentcode.value += "font-weight:bold !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#makingdifferentpopup h1{\n";
+makingdifferentcode.value += "background:#6d84b4 url(http:\/\/4.bp.blogspot.com\/-rNUTIpDQ21s\/T0NqE_vv6GI\/AAAAAAAACps\/GSoWE2n9Oy8\/s1600\/%255Bwww.gj37765.blogspot.com%255Dh1.png) 98% no-repeat;\n";
+makingdifferentcode.value += "border:1px solid #3b5998 !important;\n";
+makingdifferentcode.value += "color:#FFFFFF !important;\n";
+makingdifferentcode.value += "font-size:20px !important;\n";
+makingdifferentcode.value += "font-weight:700 !important;\n";
+makingdifferentcode.value += "padding:5px !important;\n";
+makingdifferentcode.value += "margin:0 !important;\n";
+makingdifferentcode.value += "font-family:'\"lucida grande\",tahoma,verdana,arial,sans-serif !important;\n";
+makingdifferentcode.value += "overflow:hidden !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += ".htmlarea{\n";
+makingdifferentcode.value += "font-size:12px !important;\n";
+makingdifferentcode.value += "font-weight:normal !important;\n";
+makingdifferentcode.value += "height:265px !important;\n";
+makingdifferentcode.value += "padding:1px !important;\n";
+makingdifferentcode.value += "background:#fff !important;\n";
+makingdifferentcode.value += "border-bottom:2px solid #ddd;\n";
+makingdifferentcode.value += "overflow:hidden !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#mdfooter{\n";
+makingdifferentcode.value += "text-align:left;\n";
+makingdifferentcode.value += "background:#F2F2F2 !important;\n";
+makingdifferentcode.value += "height:56px !important;\n";
+makingdifferentcode.value += "padding:10px 10px 10px 10px !important;\n";
+makingdifferentcode.value += "overflow:hidden !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#mdclose{\n";
+makingdifferentcode.value += "float:right;\n";
+makingdifferentcode.value += "background-color:#eee !important;\n";
+makingdifferentcode.value += "border:1px solid #ccc !important;\n";
+makingdifferentcode.value += "color:#111 !important;\n";
+makingdifferentcode.value += "font-weight:bold !important;\n";
+makingdifferentcode.value += "padding:5px 8px 5px 8px !important;\n";
+makingdifferentcode.value += "text-decoration:none !important;\n";
+makingdifferentcode.value += "display:inline-block !important;\n";
+makingdifferentcode.value += "font-family:'\"lucida grande\",tahoma,verdana,arial,sans-serif !important;\n";
+makingdifferentcode.value += "outline:none !important;\n";
+makingdifferentcode.value += "position:relative !important;\n";
+makingdifferentcode.value += "font-size:18px !important;\n";
+makingdifferentcode.value += "margin:1px !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#mdclose:active{\n";
+makingdifferentcode.value += "top:1px;\n";
+makingdifferentcode.value += "left:1px;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += ".grabthis{\n";
+makingdifferentcode.value += "bottom:80px;\n";
+makingdifferentcode.value += "font:8px \"lucida grande\",tahoma,verdana,arial,sans-serif;\n";
+makingdifferentcode.value += "position:absolute;\n";
+makingdifferentcode.value += "right:6px;\n";
+makingdifferentcode.value += "text-align:right;\n";
+makingdifferentcode.value += "z-index: 99999;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += ".grabthis a{\n";
+makingdifferentcode.value += "color: #000;\n";
+makingdifferentcode.value += "text-decoration:none;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += ".grabthis a:hover{\n";
+makingdifferentcode.value += "text-decoration:underline;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "<\/style>\n";
+makingdifferentcode.value += "<script type='text\/javascript'>\n";
+makingdifferentcode.value += "jQuery(document).ready(function() {\n";
+makingdifferentcode.value += "function makingdifferent_ppopup()  {\n";
+makingdifferentcode.value += "var sec = "+ t +"\n";
+makingdifferentcode.value += "var timer = setInterval(function() {\n";
+makingdifferentcode.value += "   $(\"#mdfooter span\").text(sec--);\n";
+makingdifferentcode.value += "   if (sec == 0) {\n";
+makingdifferentcode.value += "      $(\"#makingdifferentpopup\").fadeOut(\"slow\");\n";
+makingdifferentcode.value += "      clearInterval(timer);\n";
+makingdifferentcode.value += "   }\n";
+makingdifferentcode.value += "},"+ t +"00);\n";
+makingdifferentcode.value += "  var mdwh = jQuery(window).height();\n";
+makingdifferentcode.value += "  var mdpph = jQuery(\"#makingdifferentpopup\").height();\n";
+makingdifferentcode.value += "  var mdfromTop = jQuery(window).scrollTop()+50;\n";
+makingdifferentcode.value += " jQuery(\"#makingdifferentpopup\").css({\"top\":mdfromTop});}\n";
+makingdifferentcode.value += "jQuery(window).fadeIn(makingdifferent_ppopup).resize(makingdifferent_ppopup)\n";
+makingdifferentcode.value += " \/\/alert(jQuery.cookie('sreqshown'));\n";
+makingdifferentcode.value += " \/\/var mdww = jQuery(window).width();\n";
+makingdifferentcode.value += " \/\/var mdppw = jQuery(\"#makingdifferentpopup\").width();\n";
+makingdifferentcode.value += " \/\/var mdleftm = (mdww-mdppw)\/2;\n";
+makingdifferentcode.value += "   var mdleftm = 500;\n";
+makingdifferentcode.value += " \/\/var mdwh = jQuery(window).height();\n";
+makingdifferentcode.value += " \/\/var mdpph = jQuery(\"#makingdifferentpopup\").height();\n";
+makingdifferentcode.value += " \/\/var mdfromTop = (jQuery(window).scrollTop()+mdwh-mdpph) \/ 2;\n";
+makingdifferentcode.value += " jQuery(\"#makingdifferentpopup\").animate({opacity: \"1\", left: \"0\" , left:";
+makingdifferentcode.value += "  mdleftm}, 0).show();\n";
+makingdifferentcode.value += "     jQuery(\"#mdclose\").click(function() {\n";
+makingdifferentcode.value += "jQuery(\"#makingdifferentpopup\").animate({opacity: \"0\", left: \"-5000000\"}, 1000).show();});});\n";
+makingdifferentcode.value += "<\/script>\n";
+makingdifferentcode.value += "";
+makingdifferentcode.value += "<div id=\"makingdifferentpopup\">\n";
+makingdifferentcode.value += "<h1>"+ headtext +"<\/h1>\n";
+makingdifferentcode.value += "<div class=\"htmlarea\">\n";
+makingdifferentcode.value += "<iframe src=\"\/\/www.facebook.com\/plugins\/likebox.php?href="+ mdEFurl +"&amp;width=400&amp;colorscheme=light&amp;show_faces=true&amp;border_color=%23fff&amp;stream=false&amp;header=false&amp;height=250\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:400px; height:250px;\" allowtransparency=\"true\">";
+makingdifferentcode.value += "<\/iframe>\n";
+makingdifferentcode.value += "<div class=\"grabthis\">\n";
+makingdifferentcode.value += "By <a href=\"http:\/\/all-coder.blogspot.in\/\" target=\"_blank\">All-coder<\/a> \/ <a href=\"http:\/\/all-coder.blogspot.in\/2013\/02\/new-version-of-jquery-popup-facebook.html\" target=\"_blank\">+Get This!<\/a>\n";
+makingdifferentcode.value += "<\/div>\n";
+makingdifferentcode.value += "<\/div>\n";
+makingdifferentcode.value += "<div id=\"mdfooter\">\n";
+makingdifferentcode.value += "Please wait..<span>"+ t +"<\/span> Seconds\n";
+makingdifferentcode.value += "<a href=\"#\" id=\"mdclose\" onclick=\"return false;\">"+ cbuttontext +"<\/a>\n";
+makingdifferentcode.value += "<\/div>\n";
+makingdifferentcode.value += "<\/div>\n";
+makingdifferentcode.value += "<!-- End popup -->";
+		}
+		if (mdcode == 2) {
+			makingdifferentcode.value = "<style type='text\/css'>\n";
+makingdifferentcode.value += "#makingdifferentpopup{\n";
+makingdifferentcode.value += "position:absolute;\n";
+makingdifferentcode.value += "top:100px;\n";
+makingdifferentcode.value += "z-index:999;\n";
+makingdifferentcode.value += "display:none;\n";
+makingdifferentcode.value += "padding:0px;\n";
+makingdifferentcode.value += "right:600px;\n";
+makingdifferentcode.value += "border:10px solid #6F6F6F;\n";
+makingdifferentcode.value += "-webkit-border-radius:8px 8px 8px 8px;\n";
+makingdifferentcode.value += "-moz-border-radius:8px 8px 8px 8px;\n";
+makingdifferentcode.value += "border-radius:8px 8px 8px 8px;\n";
+makingdifferentcode.value += "width:400px;\n";
+makingdifferentcode.value += "height:360px;\n";
+makingdifferentcode.value += "overflow:hidden;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#makingdifferentpopup h1{\n";
+makingdifferentcode.value += "background:#6d84b4 url(http:\/\/4.bp.blogspot.com\/-rNUTIpDQ21s\/T0NqE_vv6GI\/AAAAAAAACps\/GSoWE2n9Oy8\/s1600\/%255Bwww.gj37765.blogspot.com%255Dh1.png) 98% no-repeat;\n";
+makingdifferentcode.value += "border:1px solid #3b5998 !important;\n";
+makingdifferentcode.value += "color:#FFFFFF !important;\n";
+makingdifferentcode.value += "font-size:20px !important;\n";
+makingdifferentcode.value += "font-weight:700 !important;\n";
+makingdifferentcode.value += "padding:5px !important;\n";
+makingdifferentcode.value += "margin:0 !important;\n";
+makingdifferentcode.value += "font-family:'\"lucida grande\",tahoma,verdana,arial,sans-serif !important;";
+makingdifferentcode.value += "overflow:hidden !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += ".htmlarea{\n";
+makingdifferentcode.value += "font-size:12px !important;\n";
+makingdifferentcode.value += "font-weight:normal !important;\n";
+makingdifferentcode.value += "height:265px !important;\n";
+makingdifferentcode.value += "padding:1px !important;\n";
+makingdifferentcode.value += "background:#fff !important;\n";
+makingdifferentcode.value += "border-bottom:2px solid #ddd;\n";
+makingdifferentcode.value += "overflow:hidden !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#mdfooter{\n";
+makingdifferentcode.value += "background:#F2F2F2 !important;\n";
+makingdifferentcode.value += "height:56px !important;\n";
+makingdifferentcode.value += "padding:10px 10px 10px 10px !important;\n";
+makingdifferentcode.value += "overflow:hidden !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#mdclose{\n";
+makingdifferentcode.value += "float:right;\n";
+makingdifferentcode.value += "background-color:#eee !important;\n";
+makingdifferentcode.value += "border:1px solid #ccc !important;\n";
+makingdifferentcode.value += "color:#111 !important;\n";
+makingdifferentcode.value += "font-weight:bold !important;\n";
+makingdifferentcode.value += "padding:5px 8px 5px 8px !important;\n";
+makingdifferentcode.value += "text-decoration:none !important;\n";
+makingdifferentcode.value += "display:inline-block !important;\n";
+makingdifferentcode.value += "font-family:'\"lucida grande\",tahoma,verdana,arial,sans-serif !important;\n";
+makingdifferentcode.value += "outline:none !important;\n";
+makingdifferentcode.value += "position:relative !important;\n";
+makingdifferentcode.value += "font-size:18px !important;\n";
+makingdifferentcode.value += "margin:1px !important;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "#mdclose:active{\n";
+makingdifferentcode.value += "top:1px;\n";
+makingdifferentcode.value += "left:1px;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += ".htmlarea span{\n";
+makingdifferentcode.value += "bottom:80px;\n";
+makingdifferentcode.value += "font:8px \"lucida grande\",tahoma,verdana,arial,sans-serif;\n";
+makingdifferentcode.value += "position:absolute;\n";
+makingdifferentcode.value += "right:6px;\n";
+makingdifferentcode.value += "text-align:right;\n";
+makingdifferentcode.value += "z-index: 99999;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += ".htmlarea span a{\n";
+makingdifferentcode.value += "color: #000;\n";
+makingdifferentcode.value += "text-decoration:none;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += ".htmlarea span a:hover{\n";
+makingdifferentcode.value += "text-decoration:underline;\n";
+makingdifferentcode.value += "}\n";
+makingdifferentcode.value += "<\/style>\n";
+makingdifferentcode.value += "<script type='text\/javascript'>\n";
+makingdifferentcode.value += "jQuery(document).ready(function() {\n";
+makingdifferentcode.value += "function makingdifferent_ppopup()  {\n";
+makingdifferentcode.value += "var mdwh = jQuery(window).height();\n";
+makingdifferentcode.value += "var mdpph = jQuery(\"#makingdifferentpopup\").height();\n";
+makingdifferentcode.value += "var mdfromTop = jQuery(window).scrollTop()+50;\n";
+makingdifferentcode.value += " jQuery(\"#makingdifferentpopup\").css({\"top\":mdfromTop});\n";
+makingdifferentcode.value += "}jQuery(window)\n";
+makingdifferentcode.value += ".scroll(makingdifferent_ppopup)\n";
+makingdifferentcode.value += ".resize(makingdifferent_ppopup)\n";
+makingdifferentcode.value += "\/\/alert(jQuery.cookie('sreqshown'));\n";
+makingdifferentcode.value += "\/\/var mdww = jQuery(window).width();\n";
+makingdifferentcode.value += "\/\/var mdppw = jQuery(\"#makingdifferentpopup\").width();\n";
+makingdifferentcode.value += "\/\/var mdleftm = (mdww-mdppw)\/2;\n";
+makingdifferentcode.value += "var mdleftm = 500;\n";
+makingdifferentcode.value += "\/\/var mdwh = jQuery(window).height();\n";
+makingdifferentcode.value += "\/\/var mdpph = jQuery(\"#makingdifferentpopup\").height();\n";
+makingdifferentcode.value += "\/\/var mdfromTop = (jQuery(window).scrollTop()+mdwh-mdpph) \/ 2; \n";
+makingdifferentcode.value += "jQuery(\"#makingdifferentpopup\").animate({opacity: \"1\", left: \"0\" , left:\n mdleftm}, 0).show();\n     ";
+makingdifferentcode.value += "jQuery(\"#mdclose\").click(function() {\n";
+makingdifferentcode.value += "jQuery(\"#makingdifferentpopup\").animate({opacity: \"0\", left: \"-5000000\"}, 1000).show(); });});\n";
+makingdifferentcode.value += "<\/script>\n";
+makingdifferentcode.value += "\n";
+makingdifferentcode.value += "<div id=\"makingdifferentpopup\">\n";
+makingdifferentcode.value += "<h1>"+ headtext +"<\/h1>\n";
+makingdifferentcode.value += "<div class=\"htmlarea\">\n";
+makingdifferentcode.value += "<iframe src=\"\/\/www.facebook.com\/plugins\/likebox.php?href="+mdEFurl+"&amp;width=400&amp;colorscheme=light&amp;show_faces=true&amp;border_color=%23fff&amp;stream=false&amp;header=false&amp;height=250\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:400px; height:250px;\" allowtransparency=\"true\">\n<\/iframe>\n";
+makingdifferentcode.value += "<span>\n";
+makingdifferentcode.value += "By <a href=\"http:\/\/all-coder.blogspo.in\/\" target=\"_blank\">Making DIfferent<\/a> \/ <a href=\"http:\/\/all-coder.blogspo.in\/2012\/12\/Facebook-LikeBox-JQuery-Popup-with-Timer.html\" target=\"_blank\">+Get This!<\/a>\n";
+makingdifferentcode.value += "<\/span>\n";
+makingdifferentcode.value += "<\/div>\n";
+makingdifferentcode.value += "<div id=\"mdfooter\">\n";
+makingdifferentcode.value += "<a href=\"#\" id=\"mdclose\" onclick=\"return false;\">"+ cbuttontext +"<\/a>\n";
+makingdifferentcode.value += "<\/div>\n";
+}}
+function mdpredemo() {	
+var demodata = document.getElementsByName('mdjs')[0].value  + document.getElementsByName('widget.content')[0].value;
+newwindow=window.open('','name','');
+var tmp = newwindow.document;tmp.write('' + demodata + '');tmp.close();
+}
+</script>
+</head>
+<body>
+<div id='content-wrapper'>
+<h2>jQuery Popup Facebook Likebox with Timer widget Generator by All-Coder</h2>
+<fieldset class='redi'><legend class='redi' align='left' style='border:1px solid #7F9DB9;padding:3px 10px;margin-left:20px;'>Settings</legend><br>
+<form action="http://www.blogger.com/add-widget" method="post" target="_blank">
+<table width="100%">
+<tr>
+<td width='60%'><label for='mdfurl'>Facebook Page URL</label>:</td>
+<td width='40%'><input class='text-input' type='url'  id='mdfurl' name='mdfurl' value='https://www.facebook.com/Katarahitu' size='30'></input></td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td width='60%'><label for='mdhtext'>Heading Text </label>:</td>
+<td width='40%'><input class='text-input' type='text' id='mdhtext' name='mdhtext' value='Join us on Facebook' size='25'></input></td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td width='60%'><label for='mdcbtext'>Close Button Text</label>:</td>
+<td width='40%'><input class='text-input' type='text' id='mdcbtext' name='mdcbtext' value='Cancel' size='15'></input><br>
+<span style="font-size: small;">Ex: Close, Cancel, Skip, No thanks, Not now. etc.</span>
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td width='60%'><label for='md'>Show timer?</label>:</td>
+<td width='40%'><select class='select-box' id='md'  name='md'>
+<option value='1'>Yes</option>
+<option value='2'>No</option> 
+</select>
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td width='60%'><label for='mdsettime'>Set time out</label>:</td>
+<td width='40%'><select class='select-box' id='mdsettime'  name='mdsettime'>
+<option value='10'>10 seconds</option> 
+<option value='15'>15 seconds</option>
+ <option value='20'>20 seconds</option>
+</select>
+</td>
+</tr>
+</table>
+</fieldset>
+<center><input style="width:180px; font-weight:bold;font-size:20px; " value="Generate" onclick="javascript:makingdifferentcodegen();" type="button"><input style="width:180px; font-weight:bold;font-size:20px;" type="button" disabled="disabled" name="preview"  value="Preview"  onclick="javascript:mdpredemo();" /><input style="width:180px; font-weight:bold;font-size:20px; " disabled="disabled" name="go" value="Add to Blogger" type="submit"><br><textarea name="widget.content" style="display:none;"></textarea><input name="infoUrl" value="http://all-coder.blogspot.in/" type="hidden"><input name="logoUrl" value="" type="hidden"></form>
+<textarea name="mdjs" style="display: none; height: 0px; width: 0px;">
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script>
+</textarea>
+</center>
+<br>
+<center><span style="font-size: small;"> Copyright &copy; 2013 All Rights Reserved by <a class="g-profile" href="http://plus.google.com/111542950418678736575" target="_blank">Hitesh katara</a> @ <a href='http://all-coder.blogspot.in/' target="_blank">All-Coder</a></span></center>
+</div>
+</body>
+</html>
